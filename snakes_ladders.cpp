@@ -201,7 +201,7 @@ int main() {
                 }
             }
         }
-        //  move to other cell if there is any snake or letter
+        //  move to other cell if there is any snake or ladder
         if (back[p[playerTurn].place[0]][p[playerTurn].place[1]] != "") {
             int newRow , newColumn;
             newRow = (int)(back[p[playerTurn].place[0]][p[playerTurn].place[1]][2] - '0');
